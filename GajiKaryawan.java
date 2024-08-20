@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class GajiKaryawan {
     public static void main(String[] args) {
         
-        double jamKerja, tarif, pajak, totalGaji;
-        pajak=10;
+        double jamKerja, tarif, pajak=10, totalGaji;
 
         Scanner input = new Scanner(System.in);
         System.out.println("Masukkan jumlah jam kerja: ");
